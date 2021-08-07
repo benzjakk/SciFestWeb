@@ -5,8 +5,15 @@
     border-radius: 10px;
     background-color: white;
     width: 700px;
+
     img{
         width: 100%;
         height: auto;
     }
+
+    .buttonNavi{
+        display: flex;
+        justify-content: center;
+    }
+    
 }

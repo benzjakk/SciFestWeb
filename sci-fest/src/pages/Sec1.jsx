@@ -1,6 +1,6 @@
 import React from 'react'
 import './pages.scss'
-import { Typography, Divider,Carousel } from 'antd'
+import { Typography, Divider,Carousel,Button } from 'antd'
 
 const { Title, Paragraph, Text, Link } = Typography;
 const contentStyle = {
@@ -114,7 +114,18 @@ export const Sec1 = () => {
                     ไขมัน                : 1 กรัม ให้พลังงาน 9 กิโลแคลลอรี  <br />  
                     </blockquote>
                 </Paragraph>
+                <Paragraph>
+                    <blockquote>
+                        <a href="https://sites.google.com/site/withyasastrbeuxngtnp661/hnwy-kar-reiyn-thi-1-xahar-laea-sar-xahar">อ้างอิง</a>
+                    </blockquote>
+                </Paragraph>
             </Typography>
+            <div className="buttonNavi">
+            <Button type="primary">
+                ฐานต่อไป
+            </Button>
+            
+            </div>
         </div>
     )
 }
