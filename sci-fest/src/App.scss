@@ -1,0 +1,13 @@
+@import '~antd/dist/antd.css';
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;400;700&display=swap');
+@import './color.scss';
+
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Prompt', sans-serif;
+    padding : 10px;
+    background-color: $darkBlue;
+    height: 100%;
+}
