@@ -1,6 +1,6 @@
 import React from 'react'
 import './pages.scss'
-import { Typography, Divider,Carousel,Button } from 'antd'
+import { Typography, Divider,Carousel,Button,Row } from 'antd'
 
 const { Title, Paragraph, Text, Link } = Typography;
 const contentStyle = {
@@ -14,8 +14,8 @@ const contentStyle = {
 export const Sec1 = () => {
     return (
         <div className="container">
-            <Typography>
-            <img src="https://images.freeimages.com/images/large-previews/4c7/sushi-and-chinese-food-on-a-table-1329342.jpg"></img>
+            <Typography className="textArea">
+                <img  src="https://images.freeimages.com/images/large-previews/4c7/sushi-and-chinese-food-on-a-table-1329342.jpg"></img>
                 <Title>อาหารและสารอาหาร</Title>         
                 <Paragraph>
                     อาหารและสารอาหารคืออะไร? อาหาร หมายถึง สิ่งที่รับประทานเข้าไปแล้วก่อให้เกิดประโยชน์ ทำให้ร่างกายเจริญเติบโต ช่วยซ่อมแซมส่วนที่สึกหรอของร่างกาย อาหารส่วนใหญ่ได้มาจากพืชและสัตว์ ส่วน สารอาหาร คือ สารที่เป็นองค์ประกอบในอาหารที่สิ่งมีชีวิตนำไปใช้ในกระบวนการดำรงชีวิต สารอาหารที่เป็นองค์ประกอบของอาหาร ได้แก่ โปรตีน คาร์โบไฮเดรต ไขมัน เกลือแร่ และวิตามิน
@@ -121,10 +121,12 @@ export const Sec1 = () => {
                 </Paragraph>
             </Typography>
             <div className="buttonNavi">
-            <Button type="primary">
-                ฐานต่อไป
-            </Button>
-            
+                <Button type="primary" href="/sec2">
+                    ฐานต่อไป
+                </Button>
+                <Button type="secondary" href="/">
+                    หน้าแรก
+                </Button>
             </div>
         </div>
     )

@@ -14,6 +14,7 @@
     .buttonNavi{
         display: flex;
         justify-content: center;
+        flex-direction: column;
     }
 
     .bannerContainer{
@@ -45,7 +46,28 @@
     
     .textArea{
         padding:10px;
+
+        .banner{
+            height: 30vh;
+            width: 100%;
+            object-fit: cover;
+            object-position: 0 35%;
+         }
+        .player-wrapper {
+            position: relative;
+            padding-top: 56.25% ;/* Player ratio: 100 / (1280 / 720) */
+
+            .react-player {
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+        }
+          
+        
     }
+
+    
     
 }
 
