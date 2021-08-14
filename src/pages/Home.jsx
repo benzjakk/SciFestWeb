@@ -46,7 +46,7 @@ export const Home = () => {
                     </a>
                 </Col>
                 <Col span={8}>
-                    <a hred="/sec3">
+                    <a href="/sec3">
                         <Card 
                         hoverable
                         cover={<img alt="mattersec" src="https://images.pexels.com/photos/3825527/pexels-photo-3825527.jpeg?cs=srgb&dl=pexels-rfstudio-3825527.jpg&fm=jpg" />}
