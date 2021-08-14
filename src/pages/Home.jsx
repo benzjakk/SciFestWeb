@@ -18,6 +18,9 @@ export const Home = () => {
                 </Paragraph>
                
                 <Title level={2}>เข้าร่วมกิจกรรม</Title>
+                <blockquote>
+                    เข้าร่วมกิจกรรมเพื่อรับเกียรติบัตร
+                </blockquote>
             </Typography>
             <Row gutter={[16,16]} style={{padding:'10px'}}>
                 <Col span={8}>

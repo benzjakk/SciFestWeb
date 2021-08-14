@@ -38,6 +38,15 @@ export const Sec5 = () => {
                 </div>
             </Typography>
 
+            <Typography className="textArea">
+                <blockquote>
+                    ยินดีด้วย คุณผ่านทุกฐานแล้ว
+                </blockquote>
+                <blockquote>
+                    กรุณาติดต่ออาจารย์เพื่อรับเกียรติบัตร
+                </blockquote>
+            </Typography>
+
             <div className="buttonNavi">
                 <Button style={{marginTop:'10px',marginBottom:'10px'}} type="primary" href="/">
                     หน้าแรก
