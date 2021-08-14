@@ -1,3 +1,5 @@
 export {Home} from './Home'
 export {Sec1} from './Sec1'
 export {Sec2} from './Sec2'
+export {Sec3} from './Sec3'
+export {Sec4} from './Sec4'
