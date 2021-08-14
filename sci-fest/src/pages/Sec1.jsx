@@ -116,7 +116,7 @@ export const Sec1 = () => {
                 </Paragraph>
                 <Paragraph>
                     <blockquote>
-                        <a href="https://sites.google.com/site/withyasastrbeuxngtnp661/hnwy-kar-reiyn-thi-1-xahar-laea-sar-xahar">อ้างอิง</a>
+                        <a target="_blank" href="https://sites.google.com/site/withyasastrbeuxngtnp661/hnwy-kar-reiyn-thi-1-xahar-laea-sar-xahar">อ้างอิง</a>
                     </blockquote>
                 </Paragraph>
             </Typography>
@@ -124,7 +124,7 @@ export const Sec1 = () => {
                 <Button type="primary" href="/sec2">
                     ฐานต่อไป
                 </Button>
-                <Button type="secondary" href="/">
+                <Button style={{marginTop:'10px',marginBottom:'10px'}} type="secondary" href="/">
                     หน้าแรก
                 </Button>
             </div>

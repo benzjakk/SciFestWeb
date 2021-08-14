@@ -27,7 +27,7 @@ export const Sec3 = () => {
                 <Button type="primary" href="/sec4">
                     ฐานต่อไป
                 </Button>
-                <Button type="secondary" href="/">
+                <Button style={{marginTop:'10px',marginBottom:'10px'}} type="secondary" href="/">
                     หน้าแรก
                 </Button>
             </div>

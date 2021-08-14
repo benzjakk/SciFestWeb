@@ -70,12 +70,18 @@ export const Home = () => {
                         hoverable
                         cover={<img alt="elecsec" src="https://images.pexels.com/photos/577514/pexels-photo-577514.jpeg?cs=srgb&dl=pexels-led-supermarket-577514.jpg&fm=jpg" />}
                         >
-                            <Meta title="ํฐานที่ 5" description="ไฟฟ้า" />
+                            <Meta title="ํฐานที่ 5" description="พลังงานไฟฟ้า" />
                             
                         </Card>
                     </a>
                 </Col>
             </Row>
+
+            <Typography className="textArea">
+                <blockquote>
+                    โดย โรงเรียนเฉลิมพระเกียรติ ๖๐ พรรษา สมเด็จพระนางเจ้าสิริกิติ์ พระบรมราชินีนาถ
+                </blockquote>
+            </Typography>
             
         </div>
     )

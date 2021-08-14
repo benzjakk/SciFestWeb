@@ -5,29 +5,25 @@ import './pages.scss'
 
 const { Title, Paragraph, Text, Link } = Typography;
 
-export const Sec2 = () => {
+export const Sec5 = () => {
     return (
         <div className="container">
             <Typography className="textArea">
-                <img  className="banner" src="https://images.pexels.com/photos/5114952/pexels-photo-5114952.jpeg?cs=srgb&dl=pexels-dids-5114952.jpg&fm=jpg"></img>
-                <Title >ร่างกายมนุษย์</Title>
-                <Title level={2}>แผลรักษาตัวเองได้อย่างไร ?</Title>
+                <img className="banner" src="https://images.pexels.com/photos/577514/pexels-photo-577514.jpeg?cs=srgb&dl=pexels-led-supermarket-577514.jpg&fm=jpg"></img>
+                <Title>พลังงานไฟฟ้า</Title>
                 <div className='player-wrapper'>
                     <ReactPlayer
                     className='react-player'
-                    url='https://www.youtube.com/watch?v=ykbFsY6uV80'
+                    url='https://www.youtube.com/watch?v=N8-KbVHX0GM'
                     width='100%'
                     height='100%'
                     controls
                     />
                 </div>
             </Typography>
-            
+
             <div className="buttonNavi">
-                <Button type="primary" href="/sec3">
-                    ฐานต่อไป
-                </Button>
-                <Button style={{marginTop:'10px',marginBottom:'10px'}} type="secondary" href="/">
+                <Button style={{marginTop:'10px',marginBottom:'10px'}} type="primary" href="/">
                     หน้าแรก
                 </Button>
             </div>

@@ -1,5 +1,5 @@
 import './App.scss';
-import {Home,Sec1,Sec2,Sec3,Sec4} from './pages';
+import {Home,Sec1,Sec2,Sec3,Sec4,Sec5} from './pages';
 import {
   BrowserRouter as Router,
   Switch,
@@ -22,6 +22,9 @@ function App() {
           </Route>
           <Route path="/sec4">
             <Sec4/>
+          </Route>
+          <Route path="/sec5">
+            <Sec5/>
           </Route>
           <Route path="/">
             <Home/>
