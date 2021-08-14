@@ -70,7 +70,7 @@ export const Home = () => {
                         hoverable
                         cover={<img alt="elecsec" src="https://images.pexels.com/photos/577514/pexels-photo-577514.jpeg?cs=srgb&dl=pexels-led-supermarket-577514.jpg&fm=jpg" />}
                         >
-                            <Meta title="ํฐานที่ 5" description="พลังงานไฟฟ้า" />
+                            <Meta title="ํฐานที่ 5" description="วงจรไฟฟ้า" />
                             
                         </Card>
                     </a>

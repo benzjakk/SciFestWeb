@@ -89,7 +89,7 @@ export const Sec1 = () => {
                 </Paragraph>
                 <Title level={3}>การทดสอบอาหาร</Title>
                 <Paragraph>
-                <ul>
+                    <ul>
                         <li>
                         แป้ง ใช้ไอโอดีน เปลี่ยนจากสีน้ำตาลเป็นสีน้ำเงิน 
                         </li>
