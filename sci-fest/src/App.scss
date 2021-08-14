@@ -2,12 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;400;700&display=swap');
 @import './color.scss';
 
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Prompt', sans-serif;
+
+    color:white
+  }
+
 .App{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Prompt', sans-serif;
-    padding : 10px;
-    background-color: $darkBlue;
-    height: 100%;
+   
+    
 }

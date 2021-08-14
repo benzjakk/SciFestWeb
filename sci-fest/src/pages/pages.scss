@@ -1,10 +1,10 @@
 @import '../color.scss';
 
 .container{
-    padding:10px;
+   
     border-radius: 10px;
-    background-color: white;
     width: 700px;
+    
 
     img{
         width: 100%;
@@ -15,5 +15,37 @@
         display: flex;
         justify-content: center;
     }
+
+    .bannerContainer{
+        position: relative;
+        text-align: center;
+        color: white;
+        .banner{
+            height: 30vh;
+            width: 100%;
+            object-fit: cover;
+            object-position: 0 35%;
+         }
+         /* Centered text */
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            font-size: 40px;
+            font-weight: 900;
+            transform: translate(-50%, -50%);
+        }
+    }
+    .banner{
+        height: 30vh;
+        width: 100%;
+        object-fit: cover;
+        object-position: 0 35%;
+     }
+    
+    .textArea{
+        padding:10px;
+    }
     
 }
+
