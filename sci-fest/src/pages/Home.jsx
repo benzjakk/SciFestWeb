@@ -9,7 +9,7 @@ export const Home = () => {
     return ( 
         <div className="container"> 
             <img className='banner'
-                src="https://images.pexels.com/photos/355938/pexels-photo-355938.jpeg"></img>
+                src="https://images.pexels.com/photos/355938/pexels-photo-355938.jpeg?cs=srgb&dl=pexels-pixabay-355938.jpg&fm=jpg"></img>
             <Typography className="textArea">
                 <Title>สัปดาห์วิทยาศาสตร์</Title>
                 <Paragraph>
