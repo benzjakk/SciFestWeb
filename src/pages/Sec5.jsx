@@ -17,7 +17,7 @@ export const Sec5 = () => {
                 </Paragraph>
                 <Title level={2}>ส่วนประกอบที่สำคัญ 3 ส่วน</Title>
                 <Paragraph>
-                <img src="https://sites.google.com/site/withyasastrbeuxngtnp661/kar-kin-xahar-hi-thuk-hlak-phochnakar/afdgdsfbxcvbcxv.JPG?attredirects=0"></img>
+                <img src="https://i1.wp.com/learn.sarthaks.com/wp-content/uploads/2019/02/conductor.jpg?resize=300%2C206&ssl=1"></img>
                 <Title level={3}>แหล่งกำเนิดไฟฟ้า</Title>
                 <Paragraph>แหล่งจ่ายแรงดันไฟฟ้าไปยังวงจรไฟฟ้า เช่น แบตเตอรี่</Paragraph>
                 <Title level={3}>ตัวนำไฟฟ้า</Title>
