@@ -42,13 +42,19 @@ export const Sec5 = () => {
                 <blockquote>
                     ยินดีด้วย คุณผ่านทุกฐานแล้ว
                 </blockquote>
+            
+                
+               
                 <blockquote>
-                    กรุณาติดต่ออาจารย์เพื่อรับเกียรติบัตร
+                    <Text type="danger">หากเกิดปัญหา กรุณาติดต่ออาจารย์ที่รับผิดชอบ</Text>
                 </blockquote>
             </Typography>
 
             <div className="buttonNavi">
-                <Button style={{marginTop:'10px',marginBottom:'10px'}} type="primary" href="/">
+         
+                <Button type="primary" href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSf5AFRaNIZFnm6d0jzRYf-00hDWCWrw7HdRS35EHmygCowtuw%2Fviewform%3Fusp%3Dsf_link%26fbclid%3DIwAR03r1my2B_JqWFT-uA4Bd34-emBNCEQFN6Naf0YxQRpxbw3MKeZ8WRhu6U&h=AT2U30RthRDLtD6pniN7LnBvJUwOk6OALAt1TwGDvlotvuzijoUMBhwkxSVGErs2jIWYlFCaPYXjqognoj7FOPQstjKWK1j1LBgtnPUp4235pyWA34zBvgijnJYxvrKMgXPrbQ" target="_blank">คลิกที่นี่เพื่อกรอกแบบฟอร์มรับเกียรติบัตร</Button>
+                
+                <Button style={{marginTop:'10px',marginBottom:'10px'}} type="secondary" href="/">
                     หน้าแรก
                 </Button>
             </div>
