@@ -21,8 +21,7 @@ export const Home = () => {
                 <blockquote>
                     เข้าร่วมกิจกรรมเพื่อรับเกียรติบัตร
                 </blockquote>
-            </Typography>
-            <Row gutter={[16,16]} style={{padding:'10px'}}>
+                <Row gutter={[16,16]} >
                 <Col span={8}>
                     <a href="/sec1">
                         <Card 
@@ -79,6 +78,8 @@ export const Home = () => {
                     </a>
                 </Col>
             </Row>
+            </Typography>
+            
 
             <Typography className="textArea">
                 <blockquote>
