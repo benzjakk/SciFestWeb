@@ -30,7 +30,7 @@ export const Sec5 = () => {
                 <div className='player-wrapper'>
                     <ReactPlayer
                     className='react-player'
-                    url='https://www.youtube.com/watch?v=N8-KbVHX0GM'
+                    url='https://www.youtube.com/watch?v=qppLmTR1lHM'
                     width='100%'
                     height='100%'
                     controls
@@ -52,7 +52,7 @@ export const Sec5 = () => {
 
             <div className="buttonNavi">
          
-                <Button type="primary" href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSf5AFRaNIZFnm6d0jzRYf-00hDWCWrw7HdRS35EHmygCowtuw%2Fviewform%3Fusp%3Dsf_link%26fbclid%3DIwAR03r1my2B_JqWFT-uA4Bd34-emBNCEQFN6Naf0YxQRpxbw3MKeZ8WRhu6U&h=AT2U30RthRDLtD6pniN7LnBvJUwOk6OALAt1TwGDvlotvuzijoUMBhwkxSVGErs2jIWYlFCaPYXjqognoj7FOPQstjKWK1j1LBgtnPUp4235pyWA34zBvgijnJYxvrKMgXPrbQ" target="_blank">คลิกที่นี่เพื่อกรอกแบบฟอร์มรับเกียรติบัตร</Button>
+                <Button type="primary" href="https://forms.gle/stRedeCRETbDtNSCA" target="_blank">คลิกที่นี่เพื่อกรอกแบบฟอร์มรับเกียรติบัตร</Button>
                 
                 <Button style={{marginTop:'10px',marginBottom:'10px'}} type="secondary" href="/">
                     หน้าแรก
